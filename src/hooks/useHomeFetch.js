@@ -41,5 +41,5 @@ export const useHomeFetch = () => {
         fetchMovies(1, searchTerm)
     }, [searchTerm])
 
-    return { state, loading, error, setSearchTerm };
+    return { state, loading, error, searchTerm, setSearchTerm };
 };
