@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 // Styles
-import { Wrapper, Content } from './BreadCrub.styles';
+import { Wrapper, Content } from './BreadCrumb.styles';
 
 const BreadCrumbs = ({ movieTitle }) => (
     <Wrapper>
